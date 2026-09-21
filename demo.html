@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Catalog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER: logo (left) + hamburger menu (right) -->
+  <header class="site-header">
+    <a href="#" class="logo" aria-label="Home">
+      <span class="logo-mark"></span>
+      <span class="logo-text">Shop</span>
+    </a>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="nav">
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HEADING -->
+    <h1 class="page-heading">Sales on Fire</h1>
+
+    <!-- CATEGORY HEADING + 4x4 PRODUCT GRID -->
+    <section id="products" class="products">
+      <nav class="category-heading" aria-label="Product categories">
+        <ul class="category-links">
+          <li><a href="#watches">Watches</a></li>
+          <li><a href="#mobiles">Mobiles</a></li>
+          <li><a href="#shoes">Shoes</a></li>
+          <li><a href="#chains">Chains</a></li>
+          <li><a href="#caps">Caps</a></li>
+        </ul>
+      </nav>
+
+      <div class="product-grid">
+        <article id="watches" class="product-card watches">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Classic watch"></div>
+          <h3 class="product-name">Classic Watch</h3>
+          <p class="product-description">Elegant watch for everyday use.</p>
+          <p class="product-price">₹1,299</p>
+        </article>
+        <article id="mobiles" class="product-card mobiles">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Smart mobile"></div>
+          <h3 class="product-name">Smart Mobile</h3>
+          <p class="product-description">Fast mobile with a bright display.</p>
+          <p class="product-price">₹10,000</p>
+        </article>
+        <article id="shoes" class="product-card shoes">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Sport shoes"></div>
+          <h3 class="product-name">Sport Shoes</h3>
+          <p class="product-description">Comfortable shoes for active days.</p>
+          <p class="product-price">₹2,199</p>
+        </article>
+        <article id="chains" class="product-card chains">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Silver chain"></div>
+          <h3 class="product-name">Silver Chain</h3>
+          <p class="product-description">Stylish chain with a polished finish.</p>
+          <p class="product-price">₹1,599</p>
+        </article>
+        <article id="caps" class="product-card caps">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1521369909029-2afed882baee?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Classic cap"></div>
+          <h3 class="product-name">Classic Cap</h3>
+          <p class="product-description">Comfortable cap for sunny days.</p>
+          <p class="product-price">₹599</p>
+        </article>
+        <article class="product-card watches">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Modern watch"></div>
+          <h3 class="product-name">Modern Watch</h3>
+          <p class="product-description">Clean design with a modern finish.</p>
+          <p class="product-price">₹2,499</p>
+        </article>
+        <article class="product-card mobiles">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Premium mobile"></div>
+          <h3 class="product-name">Premium Mobile</h3>
+          <p class="product-description">Powerful mobile for work and play.</p>
+          <p class="product-price">₹10,000</p>
+        </article>
+        <article class="product-card shoes">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Casual shoes"></div>
+          <h3 class="product-name">Casual Shoes</h3>
+          <p class="product-description">Everyday shoes with soft cushioning.</p>
+          <p class="product-price">₹1,499</p>
+        </article>
+        <article class="product-card chains">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Gold chain"></div>
+          <h3 class="product-name">Gold Chain</h3>
+          <p class="product-description">Refined chain for special occasions.</p>
+          <p class="product-price">₹2,499</p>
+        </article>
+        <article class="product-card caps">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Sport cap"></div>
+          <h3 class="product-name">Sport Cap</h3>
+          <p class="product-description">Lightweight cap for outdoor activities.</p>
+          <p class="product-price">₹399</p>
+        </article>
+        <article class="product-card watches">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Luxury watch"></div>
+          <h3 class="product-name">Luxury Watch</h3>
+          <p class="product-description">Premium watch with a bold profile.</p>
+          <p class="product-price">₹3,799</p>
+        </article>
+        <article class="product-card mobiles">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Everyday mobile"></div>
+          <h3 class="product-name">Everyday Mobile</h3>
+          <p class="product-description">Reliable mobile with long battery life.</p>
+          <p class="product-price">₹10,000</p>
+        </article>
+        <article class="product-card shoes">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Running shoes"></div>
+          <h3 class="product-name">Running Shoes</h3>
+          <p class="product-description">Light running shoes with a flexible sole.</p>
+          <p class="product-price">₹3,299</p>
+        </article>
+        <article class="product-card chains">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Pendant chain"></div>
+          <h3 class="product-name">Pendant Chain</h3>
+          <p class="product-description">Minimal chain with a fine pendant.</p>
+          <p class="product-price">₹899</p>
+        </article>
+        <article class="product-card caps">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Street cap"></div>
+          <h3 class="product-name">Street Cap</h3>
+          <p class="product-description">Relaxed cap with a classic street style.</p>
+          <p class="product-price">₹799</p>
+        </article>
+        <article class="product-card watches">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Leather strap watch"></div>
+          <h3 class="product-name">Leather Strap</h3>
+          <p class="product-description">Classic style with a premium leather finish.</p>
+          <p class="product-price">₹2,199</p>
+        </article>
+        <article class="product-card mobiles">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Camera phone"></div>
+          <h3 class="product-name">Camera Phone</h3>
+          <p class="product-description">High-resolution camera built for everyday shots.</p>
+          <p class="product-price">₹10,000</p>
+         git remote add origin https://github.com/YOUR_USERNAME/product-catalog.git
+        git branch -M main
+        git push -u origin main        https://htmlandcssmini.github.io/product-catalog/        Start-Process "https://htmlandcssmini.github.io/product-catalog/"        Start-Process "https://htmlandcssmini.github.io/product-catalog/"        https://htmlandcssmini.github.io/product-catalog/        https://htmlandcssmini.github.io/product-catalog/        https://htmlandcssmini.github.io/product-catalog/        https://htmlandcssmini.github.io/product-catalog/        https://htmlandcssmini.github.io/product-catalog/        https://htmlandcssmini.github.io/product-catalog/       </article>
+        <article class="product-card shoes">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Sneaker pair"></div>
+          <h3 class="product-name">Street Sneaker</h3>
+          <p class="product-description">Versatile sneakers built for daily comfort.</p>
+          <p class="product-price">₹2,799</p>
+        </article>
+        <article class="product-card chains">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Diamond chain"></div>
+          <h3 class="product-name">Diamond Chain</h3>
+          <p class="product-description">A refined statement piece with a brilliant shine.</p>
+          <p class="product-price">₹3,299</p>
+        </article>
+        <article id="home" class="product-card home">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Decorative pillow"></div>
+          <h3 class="product-name">Decor Pillow</h3>
+          <p class="product-description">Soft cushion with a cozy texture for your bed or sofa.</p>
+          <p class="product-price">₹1,299</p>
+        </article>
+        <article class="product-card home">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Bedsheet set"></div>
+          <h3 class="product-name">Bedsheet Set</h3>
+          <p class="product-description">Fresh cotton bedding set with soft premium fabric.</p>
+          <p class="product-price">₹1,899</p>
+        </article>
+        <article class="product-card home">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Bed cover"></div>
+          <h3 class="product-name">Comfort Cover</h3>
+          <p class="product-description">Elegant bed cover for a neat and stylish bedroom finish.</p>
+          <p class="product-price">₹1,599</p>
+        </article>
+        <article class="product-card home">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Plush pillow set"></div>
+          <h3 class="product-name">Plush Pillow Set</h3>
+          <p class="product-description">Soft textured pillows for a cozy, premium bedroom look.</p>
+          <p class="product-price">₹1,799</p>
+        </article>
+        <article class="product-card home">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1549187774-b4e9b0445b41?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Luxury bedsheet"></div>
+          <h3 class="product-name">Luxury Bedsheet</h3>
+          <p class="product-description">Smooth cotton bedsheet designed for a relaxed sleep setup.</p>
+          <p class="product-price">₹2,299</p>
+        </article>
+        <article class="product-card home">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Printed quilt cover"></div>
+          <h3 class="product-name">Printed Quilt Cover</h3>
+          <p class="product-description">Fresh modern pattern adds comfort and style to your bed.</p>
+          <p class="product-price">₹2,099</p>
+        </article>
+        <article class="product-card home">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Neck pillow"></div>
+          <h3 class="product-name">Neck Support Pillow</h3>
+          <p class="product-description">Ergonomic pillow for restful sleep and everyday comfort.</p>
+          <p class="product-price">₹1,499</p>
+        </article>
+        <article class="product-card home">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Houseware bed cover"></div>
+          <h3 class="product-name">Summer Cover</h3>
+          <p class="product-description">Lightweight houseware cover for breezy, cozy living spaces.</p>
+          <p class="product-price">₹1,399</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER: contact form description (left) + form (right) -->
+  <footer id="contact" class="contact">
+    <div class="contact-info">
+      <h2>Contact form</h2>
+      <p>Have a question or want to tell us what you think? Fill in the form and we'll get back to you.</p>
+    </div>
+
+    <form class="contact-form" action="#" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="contact-detail">Contact</label>
+      <input type="text" id="contact-detail" name="contact" placeholder="Email or phone" required>
+
+      <label for="feedback">Feedback</label>
+      <textarea id="feedback" name="feedback" rows="4"></textarea>
+
+      <button type="submit">Send feedback</button>
+    </form>
+  </footer>
+
+</body>
+</html>
